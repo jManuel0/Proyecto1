@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oso Andino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Oso Andino (Oso de Anteojos)</h1>
+        <button onclick="cambiarTema()">Cambiar Tema</button>
+    </header>
+
+    <main>
+        <section class="imagen">
+            <img src="oso.jpg" alt="Oso andino en su hábitat natural">
+        </section>
+
+        <section class="descripcion">
+            <h2>Descripción</h2>
+            <p>
+                El oso andino es la única especie de oso en América del Sur.
+                Se caracteriza por las manchas claras alrededor de sus ojos,
+                que parecen anteojos.
+            </p>
+        </section>
+
+        <section class="caracteristicas">
+            <h2>Características</h2>
+            <ul>
+                <li><strong>Hábitat:</strong> Bosques andinos y páramos.</li>
+                <li><strong>Alimentación:</strong> Omnívoro (frutas, plantas, insectos).</li>
+                <li><strong>Comportamiento:</strong> Solitario y territorial.</li>
+                <li><strong>Estado:</strong> Vulnerable.</li>
+            </ul>
+
+            <button onclick="mostrarInfo()">Mostrar más información</button>
+            <p id="infoExtra" class="oculto">
+                Es una especie protegida debido a la pérdida de hábitat y la caza ilegal.
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
